@@ -1,0 +1,42 @@
+
+.page-heading{
+  color: black !important;
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px !important;
+}
+
+.pagination-container {
+  position: fixed;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  
+}
+.tableData{
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px !important;
+}
+
+.action-btn{
+  margin-right: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  background-color: #f2f2f2; /* Background color for the whole page */
+}
+
+.page-container {
+  padding-top: 50px;
+}
