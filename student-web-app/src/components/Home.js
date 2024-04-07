@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Card, Button } from "react-bootstrap";
 import "../CSS/Home.css";
+
 const Home = ({ isLoggedIn }) => {
   return (
     <>
@@ -27,9 +28,6 @@ const Home = ({ isLoggedIn }) => {
                 Click below to view existing students.
               </Card.Text>
               <Link to="/students">
-                {/* <Button variant="primary" className="btnTxt">
-                  View Students
-                </Button> */}
                 <Button className="btnTxt">View Students</Button>
               </Link>
             </Card.Body>

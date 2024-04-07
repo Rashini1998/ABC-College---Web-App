@@ -12,7 +12,7 @@ function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   const handleLogin = async () => {
-    setIsLoggedIn(true); // Update state
+    setIsLoggedIn(true);
     console.log("isLoggedIn state:", isLoggedIn);
   };
 

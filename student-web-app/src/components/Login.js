@@ -26,7 +26,6 @@ const Login = ({ handleLogin }) => {
     if (data.success) {
       navigate("/home"); // Redirect to home page
     } else {
-      // alert("Invalid username or password");
       setShowAlert(true);
     }
   };

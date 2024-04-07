@@ -1,4 +1,3 @@
-
 .page-heading{
   color: black !important;
   text-align: center;
@@ -17,8 +16,8 @@
   margin-top: 20px;
   display: flex;
   justify-content: center;
-  
 }
+
 .tableData{
   font-family: "Roboto Slab", serif;
   font-optical-sizing: auto;
@@ -34,7 +33,7 @@
 }
 
 body {
-  background-color: #f2f2f2; /* Background color for the whole page */
+  background-color: #f2f2f2; 
 }
 
 .page-container {
